@@ -1,5 +1,7 @@
-import SignupComponent from '@/components/i/flow/Signup';
+import SignupModal from "@/app/(beforeLogin)/_component/SignupModal";
+
 export default function Signup() {
   return (
-    <SignupComponent />)
+    <SignupModal />
+  )
 }

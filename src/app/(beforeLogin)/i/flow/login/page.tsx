@@ -1,9 +1,7 @@
-import LoginComponent from '@/components/i/flow/Login';
+import LoginModal from "@/app/(beforeLogin)/_component/LoginModal";
 
-export default function Login() {
+export default function Page() {
   return (
-    <>페이지
-      <LoginComponent />
-    </>
-    )
+    <LoginModal />
+  );
 }

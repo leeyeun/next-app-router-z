@@ -1,9 +1,10 @@
-import LoginComponent from '@/components/i/flow/Login';
+import LoginModal from "@/app/(beforeLogin)/_component/LoginModal";
 
-export default function Login() {
+export default function Page() {
   return (
     <>
-      <LoginComponent />
+      난 가로채기지롱 ㅋㅋ
+      <LoginModal />
     </>
-    )
+  );
 }

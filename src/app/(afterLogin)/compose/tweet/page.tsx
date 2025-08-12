@@ -1,6 +1,7 @@
-import Home from "@/app/(afterLogin)/home/page";
-
-export default function TweetModal() {
+export default function Home() {
   return (
-    <Home />)
+    <main>
+      게시글
+    </main>
+  )
 }
